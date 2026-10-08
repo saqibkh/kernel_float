@@ -29,7 +29,7 @@ jobs:
         submodules: 'true'
 
     - name: Simulated GPU (NVIDIA A100) and CUDA 12.8
-      uses: pantheongpu/setup-pantheonsim@06648b8c0cb091584196678593215db2e16bd7eb # v0.1.2
+      uses: pantheongpu/pantheonsim@5a7ed5100c2d21d67a360872600df5ae8e8bb4bf # main, rehearsal
       with:
         gpu: nvidia/a100
         cuda-toolkit: '12.8'
@@ -58,7 +58,7 @@ jobs:
         submodules: 'true'
 
     - name: Simulated GPU (AMD MI300X) and ROCm 7.1
-      uses: pantheongpu/setup-pantheonsim@06648b8c0cb091584196678593215db2e16bd7eb # v0.1.2
+      uses: pantheongpu/pantheonsim@5a7ed5100c2d21d67a360872600df5ae8e8bb4bf # main, rehearsal
       with:
         gpu: amd/mi300x
         rocm: '7.1'
